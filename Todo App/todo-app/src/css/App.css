@@ -1,0 +1,8 @@
+.container{
+    padding: 50px 0 50px 0;
+}
+.heading{
+    margin-bottom: var(--margin-bottom) !important;
+    text-align: center;
+    font-weight: bold !important;
+}

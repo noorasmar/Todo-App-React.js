@@ -1,0 +1,14 @@
+:root{
+    --main-color: orange;
+    --margin-bottom: 50px;
+    --complete-color: #6FC66F;
+    --delete-color: #E55D5D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFAF0;
+}

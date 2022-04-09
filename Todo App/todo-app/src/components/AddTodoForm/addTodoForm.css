@@ -1,0 +1,14 @@
+form{
+    margin-bottom: var(--margin-bottom);
+}
+.text-field{
+    display: block;
+    width: 100%;
+    margin-bottom: calc(var(--margin-bottom) - 20px) !important;
+    background-color: #fff;
+}
+@media (max-width: 767px) {
+    .btn{
+        width: 100%;
+    }
+}

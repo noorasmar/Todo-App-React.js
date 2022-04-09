@@ -1,0 +1,77 @@
+.todo-list__task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 25px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: #fff;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.todo-list__task:hover{
+    border-color: var(--main-color);
+}
+.todo-list__task:hover p{
+    color: var(--main-color);
+}
+.todo-list__task p{
+    font-size: 1.3rem;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.todo-list__task .complete{
+    text-decoration: line-through;
+}
+.todo-list__task .not--complete{
+    text-decoration: none;
+}
+.todo-list__btn-icon{
+    display: flex;
+    gap: 5px;
+}
+.todo-list__btn-icon span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.todo-list__btn-icon span:first-of-type{
+    border-color: var(--complete-color);
+    color: var(--complete-color);
+}
+.todo-list__btn-icon span:first-of-type:hover{
+    background-color: var(--complete-color);
+    color: #fff;
+}
+.todo-list__btn-icon span:last-of-type{
+    border-color: var(--delete-color);
+    color: var(--delete-color);
+}
+.todo-list__btn-icon span:last-of-type:hover{
+    background-color: var(--delete-color);
+    color: #fff;
+}
